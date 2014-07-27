@@ -1,0 +1,15 @@
+﻿body button {
+  border-radius: 10px;
+  background: #72d9b7;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 1.0em;
+}
+body #btn-exit-chat {
+  display: none;
+}
+body #chat-holder {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,6 @@
+D:\Telerik\Homework\JacaScriptApps\SPAApplications\SPAApplications\bin\SPAApplications.dll.config
+D:\Telerik\Homework\JacaScriptApps\SPAApplications\SPAApplications\bin\SPAApplications.dll
+D:\Telerik\Homework\JacaScriptApps\SPAApplications\SPAApplications\bin\SPAApplications.pdb
+D:\Telerik\Homework\JacaScriptApps\SPAApplications\SPAApplications\obj\Debug\SPAApplications.csprojResolveAssemblyReference.cache
+D:\Telerik\Homework\JacaScriptApps\SPAApplications\SPAApplications\obj\Debug\SPAApplications.dll
+D:\Telerik\Homework\JacaScriptApps\SPAApplications\SPAApplications\obj\Debug\SPAApplications.pdb
