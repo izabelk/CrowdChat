@@ -2,20 +2,19 @@
 
     var baseUrl = 'http://crowd-chat.herokuapp.com/posts';
 
-    function getAllMessages(url) {
+    function getAllMessages(url , success , error) {
         url = url || baseUrl;
-        //console.log(httpRequester.getJSON(url));
 
-        return httpRequester.getJSON(url);
+        httpRequester.getJSON(url , success, error);
     }
 
-    function sendMessage(user, message, url) {
+    function sendMessage(user, message, url, success, error) {
         url = url || baseUrl;
         var data = {
             user: user,
             text: message
         };
-        return httpRequester.postJSON(url, data);
+        httpRequester.postJSON(url, data);
     }
 
     function getLimitedCountOfMessages(count, url) {
