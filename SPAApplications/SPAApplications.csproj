@@ -57,7 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\mocha.css" />
     <Content Include="index.html" />
     <Content Include="scripts\app.js" />
     <Content Include="scripts\controller.js" />
@@ -65,18 +64,18 @@
     <Content Include="scripts\http-requester.js" />
     <Content Include="scripts\libs\chai.js" />
     <Content Include="scripts\libs\jquery-2.1.1.min.js" />
+    <Content Include="scripts\libs\mocha.js" />
+    <Content Include="scripts\libs\q.min.js" />
     <Content Include="scripts\libs\require.js" />
     <Content Include="packages.config" />
     <None Include="scripts\_references.js" />
-    <Content Include="scripts\specs\application\calculator.js" />
-    <Content Include="scripts\specs\bdd\chai-jquery.js" />
-    <Content Include="scripts\specs\bdd\chai.js" />
-    <Content Include="scripts\specs\bdd\fixtures.js" />
-    <Content Include="scripts\specs\bdd\mocha.js" />
-    <Content Include="scripts\specs\bdd\sinon-chai.js" />
-    <Content Include="scripts\specs\bdd\sinon.js" />
-    <Content Include="scripts\specs\fixtures\readme.txt" />
-    <Content Include="scripts\tests.js" />
+    <Content Include="scripts\libs\underscore.js" />
+    <Content Include="scripts\messages-module.js" />
+    <Content Include="scripts\tests\messages-module-test.js" />
+    <Content Include="scripts\tests\underscore-module-test.js" />
+    <Content Include="scripts\underscore-module.js" />
+    <Content Include="scripts\unit-test.main.js" />
+    <Content Include="styles\mocha.css" />
     <Content Include="styles\style.css">
       <DependentUpon>style.less</DependentUpon>
     </Content>
@@ -91,7 +90,6 @@
     <Content Include="styles\style.css.map">
       <DependentUpon>style.css</DependentUpon>
     </Content>
-    <Content Include="Views\Mocha\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -99,6 +97,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

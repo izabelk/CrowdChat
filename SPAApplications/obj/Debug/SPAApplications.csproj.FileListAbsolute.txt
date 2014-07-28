@@ -4,3 +4,9 @@ D:\Telerik\Homework\JacaScriptApps\SPAApplications\SPAApplications\bin\SPAApplic
 D:\Telerik\Homework\JacaScriptApps\SPAApplications\SPAApplications\obj\Debug\SPAApplications.csprojResolveAssemblyReference.cache
 D:\Telerik\Homework\JacaScriptApps\SPAApplications\SPAApplications\obj\Debug\SPAApplications.dll
 D:\Telerik\Homework\JacaScriptApps\SPAApplications\SPAApplications\obj\Debug\SPAApplications.pdb
+D:\GitHubProjects\CrowdChat\SPAApplications\bin\SPAApplications.dll.config
+D:\GitHubProjects\CrowdChat\SPAApplications\bin\SPAApplications.dll
+D:\GitHubProjects\CrowdChat\SPAApplications\bin\SPAApplications.pdb
+D:\GitHubProjects\CrowdChat\SPAApplications\obj\Debug\SPAApplications.csprojResolveAssemblyReference.cache
+D:\GitHubProjects\CrowdChat\SPAApplications\obj\Debug\SPAApplications.dll
+D:\GitHubProjects\CrowdChat\SPAApplications\obj\Debug\SPAApplications.pdb

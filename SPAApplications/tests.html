@@ -2,24 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Tests</title>
-    <link href="Content/mocha.css" rel="stylesheet" />
-    <script src="scripts/libs/require.js" data-main="scripts/app"></script>
+    <link href="styles/mocha.css" rel="stylesheet" />
+    <script src="scripts/libs/require.js" data-main="scripts/unit-test.main"></script>
 </head>
 <body>
     <div id="mocha"></div>
-    <script src="scripts/specs/bdd/mocha.js"></script>
-    <script src="scripts/libs/chai.js"></script>
-    <!--<script src="scripts/libs/require.js" data-main="scripts/app"></script>-->
-    <script>
-        mocha.setup('bdd');
-        expect = chai.expect;
-    </script>
-    <script src="scripts/http-requester.js"></script>
-    <script src="scripts/data-layer.js"></script>
-    <script src="scripts/controller.js"></script>
-    <script src="scripts/tests.js"></script>
-    <script>
-        mocha.run();
-    </script>
 </body>
 </html>

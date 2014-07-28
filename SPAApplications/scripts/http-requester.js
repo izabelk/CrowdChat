@@ -2,7 +2,7 @@
 define(['jquery'], function (jquery) {
 
     function getJSON(url, success, error) {
-      $.ajax({
+      return $.ajax({
             url: url,
             type: 'GET',
             contentType: 'application/json',
@@ -12,13 +12,13 @@ define(['jquery'], function (jquery) {
     }
 
     function postJSON(url, data, success, error) {
-       $.ajax({
+       return $.ajax({
             url: url,
             type: 'POST',
             data: JSON.stringify(data),
             contentType: 'application/json',
             success: success,
-           error: error 
+            error: error 
         });
     }
 
