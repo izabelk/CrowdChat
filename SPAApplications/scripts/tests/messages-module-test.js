@@ -37,7 +37,7 @@
                 var returnedStatus = (xhr.status / 100) | 0;
                 expect(returnedStatus).to.deep.equal(expectedStatus);
                 expect(expectedData).to.be.deep.equal(data);
-                done();
+                done(null, done);
             },
             function (error) {
             });
